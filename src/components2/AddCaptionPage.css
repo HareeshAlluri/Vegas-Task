@@ -1,0 +1,35 @@
+.add-caption-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .canvas-container {
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #45a049;
+  }
